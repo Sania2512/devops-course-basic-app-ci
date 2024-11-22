@@ -2,7 +2,7 @@ name: demo-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  check-bats-version:
+  Explore-Github-Actions:
     runs-on: ubuntu-latest
     steps:
       - run : echo"Hello World!"
