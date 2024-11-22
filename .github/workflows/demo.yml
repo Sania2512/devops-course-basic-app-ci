@@ -34,8 +34,8 @@ jobs:
 
       - name: Test with nosetests
         run : |
-                  pip install nose
-                  nose 
+              pip install nose
+              nosetests
 
 
 
